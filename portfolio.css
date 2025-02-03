@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 76%, 13%);
+    color: aliceblue;
+    font-family: 'poppin', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 36, 48);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(118, 118, 175);
+    height: 1.2px;
+    margin: 40px 20px;
+}
+
+.left {
+    font-size: x-large;
+}
+
+.firstsection {
+    display: flex;
+    background-color: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    margin-bottom: 95px;
+}
+
+.firstsection>div {
+    width: 40%;
+
+}
+
+.liftsection {
+    font-size: 2rem;
+    font-style: italic;
+    padding-left: 200PX;
+}
+
+.blue {
+    color: rgb(115, 115, 219);
+}
+
+nav ul li a {
+    font-style: non;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-style: non;
+    color: white;
+    color: rgb(129, 112, 204);
+
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80lvi;
+    margin: auto;
+}
+
+.education {
+   
+    max-width: 98%;
+    margin: 50px auto;
+    background-color: hwb(203 2% 89%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 12px 10px rgba(201, 191, 191, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.edu-item {
+    border-left: 4px solid #25ad3c;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background: #08235c;
+    border-radius: 5px;
+}
+
+.edu-item h3 {
+    margin: 0 0;
+    color: #040f1b;
+}
+
+.edu-item p {
+    margin: 5px 0;
+    color: hsl(0, 45%, 98%);
+}
+
+
+.work-experience {
+    max-width: 100%;
+    margin: 50px auto;
+    background: rgb(97, 26, 26);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #dad6d6
+}
+
+h2 {
+    text-align: center;
+    color: #ece9e9;
+}
+
+table {
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f2b38;
+    color: rgb(215, 212, 221);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
